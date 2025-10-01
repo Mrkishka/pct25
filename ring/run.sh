@@ -16,4 +16,4 @@ done
 rm allgather
 
 echo ""
-echo "Ring (AllGather) execution completed. Check ring_output.txt and ring_time.txt files for results."
+echo "Gotovo, glyan'te files"

@@ -13,3 +13,6 @@ for np in {1..6}; do
 done
 
 rm ata
+
+echo ""
+echo "Gotovo, glyan'te files"
