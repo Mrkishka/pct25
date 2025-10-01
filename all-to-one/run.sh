@@ -12,4 +12,7 @@ for np in {1..6}; do
   mpirun -np $np ./ato
 done
 
-rm ato 
+rm ato
+
+echo ""
+echo "All-to-One execution completed. Check all-to-one_output.txt and all-to-one_time.txt files for results."

@@ -13,5 +13,7 @@ for np in {1..6}; do
   mpirun -np $np ./allgather
 done
 
-# Удаление скомпилированных файлов
 rm allgather
+
+echo ""
+echo "Ring (AllGather) execution completed. Check ring_output.txt and ring_time.txt files for results."
